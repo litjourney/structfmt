@@ -1,0 +1,21 @@
+.github/workflows/ci.yml
+  s_a79cad185d5451::t_ffa1aaa5fc1342 13,25-26
+.gitattributes
+  s_a79cad185d5451::t_ffa1aaa5fc1342 1-2
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.23",
+  "base_commit_sha": "ca8540d301e016162e63e1f97245e76fe6be6102",
+  "prompts": {},
+  "sessions": {
+    "s_a79cad185d5451": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a08414-d717-7d42-b759-87027e9cfbb5",
+        "model": "gpt-6-astra"
+      },
+      "human_author": "doublemine <doublemine@doubleminedeMacBook-Pro.local>"
+    }
+  }
+}
