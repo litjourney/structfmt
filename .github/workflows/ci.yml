@@ -10,6 +10,7 @@ permissions:
 jobs:
   test:
     strategy:
+      fail-fast: false
       matrix:
         os: [ubuntu-latest, macos-latest, windows-latest]
         go: ['1.23.x', 'stable']
@@ -21,4 +22,5 @@ jobs:
           go-version: ${{ matrix.go }}
       - run: go test ./...
       - run: go vet ./...
-      - run: go run . --check .
+      - name: Check formatting
+        run: go run . -d --check .
